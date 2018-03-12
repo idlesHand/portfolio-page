@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 750 531.25" xmlns="http://www.w3.org/2000/svg">
+ <path d="m31.749 8.877h691.03a25.529 28.366 0 0 1 25.529 28.366v464.46a25.529 28.366 0 0 1 -25.529 28.366h-691.03a25.529 28.366 0 0 1 -25.529 -28.366v-464.46a25.529 28.366 0 0 1 25.529 -28.366" fill="#fff" fill-rule="evenodd" opacity=".9" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+ <path d="m79.424 39.712h609.86a25.529 28.366 0 0 1 25.529 28.366v164.52a25.529 28.366 0 0 1 -25.529 28.366h-609.86a25.529 28.366 0 0 1 -25.529 -28.366v-164.52a25.529 28.366 0 0 1 25.529 -28.366" fill-rule="evenodd" opacity=".9"/>
+ <path transform="matrix(1.0292 0 0 1.264 -37.399 -71.58)" d="m697.79 174.45a290.75 75.169 0 1 1 -581.49 0 290.75 75.169 0 1 1 581.49 0z" fill="#f00" fill-rule="evenodd" opacity=".9" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.4716"/>
+ <text x="382.93503" y="187.21269" fill="#fff" font-family="Arial" font-size="114" font-weight="bold" text-anchor="middle" writing-mode="lr">
+  <tspan x="382.93503" y="187.21269">DANGER</tspan>
+ </text>
+ <text transform="scale(.60527 1.6522)" x="627.41278" y="286.68436" font-family="Arial" font-size="141.24" font-weight="bold" text-anchor="middle">
+  <tspan x="627.4128" y="286.68436">HIGH VOLTAGE</tspan>
+ </text>
+</svg>
