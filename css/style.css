@@ -74,6 +74,7 @@ body {
 
 .h-img-me-div {
   /* margin: 0.333rem; */
+  margin: 0 auto;
   /* height: 100%; */
   height: 10rem;
   max-height: 10rem;
@@ -88,14 +89,9 @@ body {
 }
 
 .h-img-me {
-  /* margin: 0.333rem; */
-  /* max-height: 20vh; */
-  /* height: 90%; */
   height: 10rem;
   max-height: 10rem;
   width: auto;
-  /* width:  */
-  /* border-radius: 50%; */
 }
 
 .h-down-button {
@@ -154,14 +150,7 @@ a.h-down-button-blue:link, a.h-down-button-blue:visited, a.h-down-button-blue:ho
 }
 
 .h-bottom input {
-  /* overflow: visible; */
-  /* margin-bottom: 1px; */
   margin: 0.333rem;
-  /* border-top: 0; */
-  /* border: none; */
-  /* padding-left: 1px; */
-  /* padding: .333rem; */
-  /* border-radius: 5% 5%; */
 }
 
 .h-bottom button {
@@ -170,11 +159,6 @@ a.h-down-button-blue:link, a.h-down-button-blue:visited, a.h-down-button-blue:ho
   -webkit-filter: drop-shadow(0 5px 0.333rem #010101);
           filter: drop-shadow(0 5px 0.333rem #010101);
 }
-
-/* .h-bottom button:link, button:visited {
-  background-color: #161032;
-  border-color: #161032;
-} */
 
 .h-bottom button:hover {
   background-color: #161032;
@@ -200,13 +184,6 @@ a.h-down-button-blue:link, a.h-down-button-blue:visited, a.h-down-button-blue:ho
   -webkit-transform: translate(0, 40%);
           transform: translate(0, 40%);
   display: none;
-}
-/* BIT BELOW NEEDS FITTING IN WITH OTHER MEDIA QUERY DECLERATIONS  */
-@media screen and (max-width: 720px) {
-  #name {
-    -webkit-transform: translate(0, 15%);
-            transform: translate(0, 15%);
-  }
 }
 
 path, line, polyline {
@@ -329,7 +306,7 @@ path, line, polyline {
   background-color: #161032;
   color: grey;
 }
-
+/* NO WORRIES HERE MQ PROB */
 @media (max-width: 991.98px) {
 
   .fold-frame-container {
@@ -474,12 +451,46 @@ path, line, polyline {
           animation: slide 6000ms 2900ms forwards;
 }
 
+@media (max-width: 720px) { /*and (min-width: 575.99px) {*/
+  #name {
+    -webkit-transform: translate(0, 15%);
+    transform: translate(0, 15%);
+  }
+}
+
+/* and (min-width:424.99)  */
 @media (max-width: 575.98px) {
+  #name {
+    overflow: visible;
+    width 100%;
+    transform: scale(0.75, 0.75) translate(0, 15%);
+  }
+}
+
+/* and (min-width:374.99px) */
+@media (max-width:424.98) {
+  #name {
+    overflow: visible;
+    width 100%;
+    transform: scale(0.75, 0.75) translate(-10%, 15%);
+  }
+}
+
+@media (max-width:374.98px) {
+  #name {
+    overflow: visible;
+    width 100%;
+    transform: scale(0.75, 0.75) translate(-20%, 15%);
+  }
+}
+
+@media (max-width:575.98px) {
   .ball-center {
     -webkit-transform: translateY(333%);
             transform: translateY(333%);
   }
 }
+
 
 @media (min-width: 1200px) {
   .ball-center {
